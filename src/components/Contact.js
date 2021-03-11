@@ -11,7 +11,7 @@ const Contact = () => {
                     <div className="title-container">
                             <h2>Contact Me</h2>
                         </div>
-                <form className='form'>
+                <form className='form' method="post">
                     <input type="hidden" name="form-name" value="contact" /> 
                     <p type="Name:">
                         <input type="text" name="name" placeholder="Write Your name here..."  value={name} onChange={(e)=> setName(e.target.value)}/>
