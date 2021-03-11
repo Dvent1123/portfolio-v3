@@ -20,7 +20,7 @@ const Contact = () => {
                         <input type="email" name="email" placeholder="Let us know how to contact you back" value={email} onChange={(e)=> setEmail(e.target.value)} aria-describedby="emailHelp" />
                     </p>
                     <p type="Message:">
-                        <input name="message" placeholder="What would you like to tell us.." value={message} onChange={(e) => setMessage(e.target.value)}/>
+                        <input type="text" name="message" placeholder="What would you like to tell us.." value={message} onChange={(e) => setMessage(e.target.value)}/>
                     </p>
                     <button type="submit" className="form-btn">Submit</button>
                 </form>
