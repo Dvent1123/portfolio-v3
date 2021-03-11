@@ -1,5 +1,4 @@
-import React, {useState, useEffect} from 'react'
-import axios from 'axios'
+import React, {useState} from 'react'
 
 const Contact = () => {
     const [name, setName] = useState('')
@@ -12,7 +11,7 @@ const Contact = () => {
                     <div className="title-container">
                             <h2>Contact Me</h2>
                         </div>
-                <form className='form' onSubmit={onSubmit}>
+                <form className='form'>
                     <input type="hidden" name="form-name" value="contact" /> 
                     <p type="Name:">
                         <input type="text" name="name" placeholder="Write Your name here..."  value={name} onChange={(e)=> setName(e.target.value)}/>
