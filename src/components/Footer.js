@@ -8,10 +8,12 @@ const Footer = () => {
             <div className="footer-wrapper">
                 <div className="socials-container">
                     <div className="linkedin">
-                        <AiFillLinkedin size={'2.25em'} color={'#dd614a'}/>
+                        <a href="https://www.linkedin.com/in/daniel-ventura-608780207/" target="_blank" rel="noopener noreferrer">
+                        <AiFillLinkedin size={'2.25em'} color={'#dd614a'}/></a>
                     </div>
                     <div className="github">
-                        <AiFillGithub size={'2.25em'} color={'#dd614a'}/>
+                        <a href="https://github.com/Dvent1123" target="_blank" rel="noopener noreferrer">                        
+                        <AiFillGithub size={'2.25em'} color={'#dd614a'}/></a>
                     </div>
                 </div>
                 <div className="footer-links-container">

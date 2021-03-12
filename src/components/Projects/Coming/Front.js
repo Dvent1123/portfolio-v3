@@ -1,11 +1,11 @@
 import React from 'react'
-import Coming from '../../../assets/images/Coming.svg'
+import Dashboard from '../../../assets/images/Dashboard.svg'
 
 const Front = () => {
     return (
         <div className="front">
             <div className="image-container">
-                <img className="card-image" alt="Coming Soon" src={Coming}></img>
+                <img className="card-image" alt="Coming Soon" src={Dashboard}></img>
                 <h1 className="title">Coming Soon</h1>
             </div>
             <div className="main-area">

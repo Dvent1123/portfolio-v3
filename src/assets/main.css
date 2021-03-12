@@ -189,28 +189,46 @@ nav .links-container .li {
   cursor: pointer;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  font-size: 1em;
+}
+
+.card-container-total .button-a-git,
+.card-container-total .button-a-demo {
+  font-size: 1.25em;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.card-container-total .button-a-git {
+  color: white;
 }
 
 .card-container-total .git-button {
   background: black;
-  color: white;
   margin-right: 0.5em;
+}
+
+.card-container-total .button-a-demo {
+  color: white;
 }
 
 .card-container-total .demo-button {
   background: var(--clr-primary);
-  color: white;
   margin-left: 0.5em;
 }
 
 .card-container-total .git-button:hover {
   background: white;
+}
+
+.card-container-total .git-button:hover .button-a-git {
   color: black;
 }
 
 .card-container-total .demo-button:hover {
   background: black;
+}
+
+.card-container-total .demo-button:hover .button-a-demo {
   color: white;
 }
 
@@ -369,7 +387,7 @@ nav .links-container .li {
 }
 
 .about-container .title-container {
-  padding: 3em 0;
+  padding: 1em 0;
   text-align: center;
 }
 
@@ -381,6 +399,12 @@ nav .links-container .li {
 .about-container .about-text {
   text-align: center;
   padding: 0 3em;
+}
+
+@media screen and (min-width: 500px) {
+  .title-container {
+    padding: 3em 0;
+  }
 }
 
 ::-webkit-input-placeholder {

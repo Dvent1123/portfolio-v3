@@ -1,12 +1,12 @@
 import React from 'react'
-import Dashboard from '../../../assets/images/Dashboard.svg'
+import Restaurant from '../../../assets/images/Restaurant.svg'
 
 const Front = () => {
     return (
         <div className="front">
             <div className="image-container">
-                <img className="card-image" alt="Dashboard Project" src={Dashboard}></img>
-                <h1 className="title">Dashboard Project</h1>
+                <img className="card-image" alt="Restaurant Website" src={Restaurant}></img>
+                <h1 className="title">Restaurant Website</h1>
             </div>
             <div className="main-area">
                 <div className="blog-post">

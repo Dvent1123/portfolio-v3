@@ -1,12 +1,12 @@
 import React from 'react'
-import Tracker from '../../../assets/images/Tracker.svg'
+import Portfolio from '../../../assets/images/Portfolio.svg'
 
 const Front = () => {
     return (
         <div className="front">
             <div className="image-container">
-                <img className="card-image" alt="Tracker" src={Tracker}></img>
-                <h1 className="title">Dashboard Project</h1>
+                <img className="card-image" alt="Portfolio" src={Portfolio}></img>
+                <h1 className="title">My Portfolio</h1>
             </div>
             <div className="main-area">
                 <div className="blog-post">

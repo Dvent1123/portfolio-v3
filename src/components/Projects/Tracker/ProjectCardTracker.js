@@ -16,8 +16,8 @@ const ProjectCardTracker = () => {
                 <Back />
             </div>
             <div className="card-button-container">
-                <button className="git-button">Github</button>
-                <button className="demo-button">Live Demo</button>
+                <button className="git-button">
+                    <a className='button-a-git' href="https://github.com/Dvent1123/portfolio-v3" target="_blank" rel="noopener noreferrer">Github</a></button>
             </div>            
         </div>
 

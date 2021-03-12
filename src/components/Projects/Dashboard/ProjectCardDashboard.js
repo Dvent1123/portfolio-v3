@@ -16,8 +16,10 @@ const ProjectCardDashboard = () => {
                 <Back />
             </div>
             <div className="card-button-container">
-                <button className="git-button">Github</button>
-                <button className="demo-button">Live Demo</button>
+                <button className="git-button">
+                    <a className='button-a-git' href="https://github.com/Dvent1123/restaraunt-template" target="_blank" rel="noopener noreferrer">Github</a></button>
+                <button className="demo-button">
+                    <a className='button-a-demo' href="https://www.papabearsrestaurant.com/" target="_blank" rel="noopener noreferrer">Live Demo</a></button>
             </div>            
         </div>
     )

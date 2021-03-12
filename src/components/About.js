@@ -8,8 +8,9 @@ const About = () => {
                         <h2>About</h2>
                 </div>
                 <div className="about-text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repudiandae aliquam corporis, modi, 
-                    enim ipsam aspernatur maiores porro quos error soluta culpa sequi, ad at quaerat fuga iure cupiditate a?</p>
+                    <p>I am a self-taught software developer who has honed his skills through project-based learning as well as having built production-ready websites.
+                        I am driven, passionate, and highly dedicated to my craft.
+                    </p>
                 </div>
             </div>
         </section>
