@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="footer-wrapper">
                 <div className="socials-container">
                     <div className="linkedin">
-                        <a href="https://www.linkedin.com/in/daniel-ventura-608780207/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/ventura-daniel/" target="_blank" rel="noopener noreferrer">
                         <AiFillLinkedin size={'2.25em'} color={'#dd614a'}/></a>
                     </div>
                     <div className="github">

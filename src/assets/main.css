@@ -214,6 +214,7 @@ nav .links-container .li {
 .card-container-total .demo-button {
   background: var(--clr-primary);
   margin-left: 0.5em;
+  margin-top: 0.75em;
 }
 
 .card-container-total .git-button:hover {

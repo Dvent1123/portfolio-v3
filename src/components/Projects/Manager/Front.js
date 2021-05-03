@@ -6,13 +6,16 @@ const Front = () => {
         <div className="front">
             <div className="image-container">
                 <img className="card-image" alt="Coming Soon" src={Dashboard}></img>
-                <h1 className="title">Coming Soon</h1>
+                <h1 className="title">Task Manager</h1>
             </div>
             <div className="main-area">
                 <div className="blog-post">
-                <p className="date">{new Date().toLocaleDateString()}</p>
                 <p className="blog-content">
-                    Some sample text to demonstrate how these cards will work, including how they truncate long sentences.</p>
+                    My rendition of a To-Do App that has user auth using JWT and has real time data using SocketIO.
+                    The front-end is built using React and the backend uses Express and NodeJS as well as MongoDB.
+                    This project allows for multiple users to work on a single task and has user permissions to differentiate
+                    between a user or admin using in house middleware.
+                </p>
                 <p className="read-more">Hover to read more...</p>
 
                 </div>
