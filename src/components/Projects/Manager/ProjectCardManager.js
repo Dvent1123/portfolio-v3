@@ -21,7 +21,7 @@ const ProjectCardManager = () => {
                     <button className="git-button">
                     <a className="button-a-git" href="https://github.com/Dvent1123/task-manager-client" target="_blank" rel="noopener noreferrer">Github Client</a></button>
                 <button className="demo-button">
-                    <a className="button-a-demo" href="http://206.189.183.114" target="_blank" rel="noopener noreferrer">Live Demo</a></button>
+                    <a className="button-a-demo" href="https://todo-simply.com/" target="_blank" rel="noopener noreferrer">Live Demo</a></button>
             </div>
         </div>
     )

@@ -21,7 +21,7 @@ const ProjectCardTracker = () => {
                     <button className="git-button">
                     <a className='button-a-git' href="https://github.com/Dvent1123/calisthenics-tracker-client" target="_blank" rel="noopener noreferrer">Github Client</a></button>
                 <button className="demo-button">
-                    <a className='button-a-demo' href="http://161.35.60.11" target="_blank" rel="noopener noreferrer">Live Demo</a></button>
+                    <a className='button-a-demo' href="https://exercisemaphub.com/" target="_blank" rel="noopener noreferrer">Live Demo</a></button>
             </div>            
         </div>
     )
